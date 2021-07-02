@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="crearBd"
+    android:text="Crear tabla" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="consultarDatos"
+        android:text="Recuperar código" />
+
+<TextView
+android:id="@+id/label_a"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Introduzca Código:" />
+
+<EditText
+    android:id="@+id/EditText01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/editbox_background"
+    android:textColor="#00FF00"/>
+
+<TextView
+    android:id="@+id/label_b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Nombre Usuario:" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
